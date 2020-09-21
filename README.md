@@ -48,3 +48,11 @@ Lets apply k-means on our dataset, and take look at cluster labels.
     k_means = KMeans(init = "k-means++", n_clusters = clusterNum, n_init = 12)
     k_means.fit(X)
     labels = k_means.labels_
+
+Now, let's look at the distribution of customers based on their age and income:
+
+![03_distribution](images/03_distribution.png)
+
+And this is what its 3D plot would look like:
+
+![04_distribution_3d](images/04_distribution_3d.png)
