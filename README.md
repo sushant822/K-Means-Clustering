@@ -5,6 +5,14 @@ k-means clustering is a method of vector quantization, originally from signal pr
 We create our own dataset by using numpy's random.seed() function, where the seed will be set to 0.
 
     np.random.seed(0)
+    
+This is what it looks like:
+
+![01_scatter_plot](images/01_scatter_plot.png)
+
+Once we have the random data generated and the KMeans model initialized, let's plot them and see what it looks like:
+
+![02_scatter_plot_class](images/02_scatter_plot_class.png)
 
 Then we make random clusters of points by using the make_blobs class.
     
